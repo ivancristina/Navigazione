@@ -92,7 +92,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/phia"
+                        android:text="@string/lambdaa"
                         />
                     <EditText
                         android:id="@+id/lambdaa_degrees"
@@ -148,7 +148,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/phia"
+                        android:text="@string/phib"
                         />
                     <EditText
                         android:id="@+id/phib_degrees"
@@ -204,7 +204,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/phia"
+                        android:text="@string/lambdab"
                         />
                     <EditText
                         android:id="@+id/lambdab_degrees"

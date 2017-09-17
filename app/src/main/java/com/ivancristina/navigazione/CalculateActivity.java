@@ -14,11 +14,23 @@ import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 
 public class CalculateActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+        private EditText phia_degrees;
+        private EditText phia_minutes = (EditText) findViewById(R.id.phia_minutes);
+        private EditText phia_seconds = (EditText) findViewById(R.id.phia_seconds);
+        private EditText phib_degrees;
+        private EditText phib_minutes = (EditText) findViewById(R.id.phib_degrees);
+        private EditText phib_seconds = (EditText) findViewById(R.id.phib_degrees);
+        private Button solve = (Button) findViewById(R.id.solve);
+        private TextView result;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,6 +56,13 @@ public class CalculateActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        solve.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View _v) {
+                result.setText(String.valueOf(Double.parseDouble(phia_degrees.getText().toString()) + Double.parseDouble(phib_degrees.getText().toString())));
+            }
+        });
     }
 
     @Override
@@ -78,10 +97,6 @@ public class CalculateActivity extends AppCompatActivity
         return super.onOptionsItemSelected(item);
     }
 
-
-    public void buttonOnClick(View v) {
-
-    }
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
