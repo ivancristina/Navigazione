@@ -1,0 +1,225 @@
+<resources>
+    <string name="app_name">Navigazione</string>
+    <string name="copyright">© 2015-2017 Ivan Cristina. Tutti i diritti riservati</string>
+    <string name="navigation_drawer_open">Apri drawer</string>
+    <string name="navigation_drawer_close">Chiudi drawer</string>
+
+    <string name="action_settings">Impostazioni</string>
+
+    <string name="formula">Formula: </string>
+
+    <!-- Menu -->
+
+    <string name="formule">Formule</string>
+    <string name="formule_section">Formule (Per sezioni)</string>
+    <string name="esempi">Esempi</string>
+    <string name="calculate">Calcolatore</string>
+    <string name="home">Torna alla Home</string>
+
+    <!-- Titoli -->
+
+    <string name="coord">Coordinate</string>
+    <string name="data">Dati</string>
+    <string name="distance">Distanze</string>
+    <string name="speed">Velocità</string>
+    <string name="time">Orari</string>
+    <string name="windtr">Triangolo del Vento</string>
+
+    <!-- Coordinate -->
+
+    <string name="degrees">°</string>
+    <string name="minutes">\'</string>
+    <string name="seconds">\"</string>
+    <string name="phi">φ</string>
+    <string name="lambda">λ</string>
+    <string name="phia">φA</string>
+    <string name="lambdaa">λA</string>
+    <string name="phib">φB</string>
+    <string name="lambdab">λB</string>
+    <string name="deltaphi">Δφ</string>
+    <string name="deltalambda">Δλ</string>
+    <string name="phim">φm</string>
+    <string name="tc">TC</string>
+    <string name="th">TH</string>
+
+    <string name="ext_phi">Phi</string>
+    <string name="ext_lambda">Lambda</string>
+    <string name="ext_phia">Phi di A</string>
+    <string name="ext_lambdaa">Lambda di A</string>
+    <string name="ext_phib">Phi di B</string>
+    <string name="ext_lambdab">Lambda di B</string>
+    <string name="ext_deltaphi">Delta Phi</string>
+    <string name="ext_deltalambda">Delta Lambda</string>
+    <string name="ext_phim">Phi Medio</string>
+    <string name="ext_tc">True Course</string>
+    <string name="ext_mc">True Course</string>
+    <string name="ext_th">True Heading</string>
+    <string name="ext_mh">True Heading</string>
+
+    <string name="expl_phi" formatted="false">Con il valore φ si intende la longitudine di un determinato punto, ad esempio nel caso di φA del punto A. La longitudine è l\'arco di equatore compreso fra il meridiano di Greenwich e il meridiano considerato, misurato in gradi sessangesimali da 0 a 180º E e da 0 a 180º W.</string>
+    <string name="expl_lambda" formatted="false">Con il valore λ si intende la latitudine di un determinato punto, ad esempio nel caso di λA del punto A. La latitudine è l\'arco di meridiano compreso fra il punto dell\'osservatore e il piede del meridiano considerato, misurato in gradi sessangesimali da 0 a 90º N e da 0 a 90º S.</string>
+    <string name="expl_deltaphi" formatted="false">Come ogni altro Δ, indica la differenza tra due valori. In questo caso tra φ1 e φ2, solitamente chiamati φA e φB.</string>
+    <string name="expl_deltalambda" formatted="false">Stessa esecuzione del Δφ, ma applicato al λ.</string>
+    <string name="expl_phim" formatted="false">Come dice il nome, lo φm è la media tra due valori φ.</string>
+    <string name="expl_tc" formatted="false">Angolo misurato da 0 a 360º in senso orario tra il meridiano vero di un punto e la congiungente di tale punto con quello di arrivo.</string>
+    <string name="expl_mc" formatted="false">Angolo misurato da 0 a 360º in senso orario tra il meridiano vero di un punto e la congiungente di tale punto con quello di arrivo, non corretto della Variation.</string>
+    <string name="expl_th" formatted="false">Angolo formato tra la direzione del Nord vero e l\'asse longitudinale dell\'aeromobile misurato in senso orario da 0 a 360º.</string>
+    <string name="expl_mh" formatted="false">Angolo formato tra la direzione del Nord magnetico e l\'asse longitudinale dell\'aeromobile misurato in senso orario da 0 a 360º.</string>
+
+    <string name="form_deltaphi" formatted="false">Δφ = φB - φA</string>
+    <string name="form_deltalambda" formatted="false">Δλ = λB - λA</string>
+    <string name="form_phim" formatted="false">φm = (φA + φB) / 2</string>
+
+    <!-- Dati -->
+
+    <string name="qnh">QNH</string>
+    <string name="isa">ISA</string>
+    <string name="sat">SAT</string>
+    <string name="deltat">ΔT</string>
+    <string name="sigma">ς</string>
+    <string name="tasrel">TAS Rel</string>
+    <string name="isasat">ISA-SAT</string>
+    <string name="ff">FF</string>
+    <string name="fr">FR</string>
+    <string name="fob">FOB</string>
+    <string name="t">T</string>
+
+    <string name="ext_isa">International Standard Atmosphere</string>
+    <string name="ext_sat">Static Air Temperature</string>
+    <string name="ext_deltat">Delta T</string>
+    <string name="ext_sigma">Sigma</string>
+    <string name="ext_tasrel">TAS Relativa</string>
+    <string name="ext_ff">Fuel Flow</string>
+    <string name="ext_fr">Fuel Required</string>
+    <string name="ext_fob">Fuel On Board</string>
+    <string name="ext_t">Tempo</string>
+
+    <string name="expl_qnh" formatted="false">Indica a pressione atmosferica misurata al livello medio del mare (MSL - medium sea level) mediante la relazione di un hPa ogni 27 piedi.</string>
+    <string name="expl_isa" formatted="false">L\'Atmosfera Standard Internazionale è un\'atmosfera ideale le cui caratteristiche fisiche (stabilite dall\'ICAO e basata su rilevazioni effettuate negli USA, quindi più corretta intorno ai 45° di latitudine) sono le seguenti:</string>
+    <string name="expl_sat" formatted="false">La SAT indica la temperatura dell\'aria esterna attorno all\'aeromobile "indisturbata", ovvero la temperatura che un termometro a tale quota percepirebbe.
+    \nSugli aerei lenti vale la legge SAT=OAT (Outside Air Temperature), mentre su quelli veloci si parla di TAT (Total Air Temperature), che tiene conto del riscaldamento adiabatico attorno al probe di rilevamento.</string>
+    <string name="expl_sigma" formatted="false">Il ς (Sigma) viene usato nel calcolo della TAS tramite CAS.</string>
+    <string name="expl_tasrel" formatted="false">TAS Rel</string>
+    <string name="expl_isasat" formatted="false">ISA-SAT</string>
+    <string name="expl_ff" formatted="false">FF</string>
+    <string name="expl_fr" formatted="false">FR</string>
+    <string name="expl_fob" formatted="false">FOB</string>
+    <string name="expl_t" formatted="false">T</string>
+
+    <string name="form_isa" formatted="false">• Aria secca (umidità relativa: 0%) e priva di impurità;
+    \n• Pressione atmosferica al livello medio del mare: 1 atm = 1013,25 hPa = 1,033 N/cm²;
+    \n• Temperatura al livello medio del mare: 15 °C;
+    \n• Densità dell\'aria a MSL: 1,225 kg/m³;
+    \n• Gradiente barico verticale: −1 hPa/27 ft;
+    \n• Gradiente termico verticale: -6,5 °C/1000 m fino a 11000 m, nullo da 11000 a 20000 m e irregolare oltre i 20000 m.</string>
+    <string name="form_sigma" formatted="true">TAS×1ς‾‾√</string>
+
+    <!-- Distanze -->
+
+    <string name="pa">PA</string>
+    <string name="fe">FE</string>
+    <string name="cp">CP</string>
+    <string name="ia">IA</string>
+    <string name="ct">CT</string>
+    <string name="ta">TA</string>
+    <string name="thg">THG</string>
+    <string name="d">D</string>
+
+    <string name="ext_pa">Pressure Altitude</string>
+    <string name="ext_fe">Field Elevation</string>
+    <string name="ext_cp">Correzione di Pressione</string>
+    <string name="ext_ia">Indicated Altitude</string>
+    <string name="ext_ct">Correzione di Temperatura</string>
+    <string name="ext_ta">True Altitude</string>
+    <string name="ext_thg">BOH?</string>
+    <string name="ext_d">Distanza</string>
+
+    <string name="expl_pa" formatted="false">PA</string>
+    <string name="expl_fe" formatted="false">FE</string>
+    <string name="expl_cp" formatted="false">CP</string>
+    <string name="expl_ia" formatted="false">IA</string>
+    <string name="expl_ct" formatted="false">CT</string>
+    <string name="expl_ta" formatted="false">TA</string>
+    <string name="expl_thg" formatted="false">THG</string>
+    <string name="expl_d" formatted="false">D</string>
+
+    <!-- Velocità -->
+
+    <string name="vvs">VVS</string>
+    <string name="gs">GS</string>
+    <string name="ias">IAS</string>
+    <string name="cas">CAS</string>
+    <string name="tas">TAS</string>
+    <string name="etas">ETAS</string>
+    <string name="mach">M</string>
+
+    <string name="ext_gs">Ground Speed</string>
+    <string name="ext_vvs">Vertical Speed</string>
+    <string name="ext_ias">Indicated Air Speed</string>
+    <string name="ext_cas">Calibrated Air Speed</string>
+    <string name="ext_tas">True Air Speed</string>
+    <string name="ext_etas">Equivalent Air Speed</string>
+    <string name="ext_mach">Mach</string>
+
+    <string name="expl_vvs" formatted="false">È il rateo di salita dell\'aeromobile indicato in piedi al minuto (ft/min). Maggiore è, minore sarà il tempo da impiegare per arrivare all\'altitudine scelta (solitamente la PA).</string>
+    <string name="expl_gs" formatted="false">È il valore della velocità riferita al suolo che, con vento calmo è identica alla TAS; con vento contrario la GS è minore della TAS. La IAS rimane sempre costante indipendentemente dal vento; la TAS invece rimane costante sino ad una deriva di 10°, diventa poi minore e si trasforma in ETAS (Equivalent Air Speed) Velocità Vera Equivalente.</string>
+    <string name="expl_ias" formatted="false">Tutti gli aerei sull\'indicatore di velocità o anemometro riportano la velocità IAS che viene rilevata dal tubo del pitot.</string>
+    <string name="expl_cas" formatted="false">È il valore della velocità indicata (IAS) corretta dell\'errore di posizione della presa dinamica (Tubo di pitot)  e dell\'errore strumentale. Nei manuali di volo degli aeromobili si può trovare la tabella di correzione della IAS in CAS per quel determinato anemometro.</string>
+    <string name="expl_tas" formatted="false">È la velocità calcolata con la correzione della pressione e della temperatura. L\'anemometro indica la velocità vera soltanto quando un velivolo vola in "Aria standard" o "Aria tipo" al livello del mare. Il calcolo è il seguente: IAS maggiorata del 2% ogni 1000 ft di altitudine.</string>
+    <string name="expl_etas" formatted="false">È il valore della velocità calibrata CAS corretta dell\'errore di compressibilità dell\'aria della presa dinamica. Tale errore è determinante esclusivamente a velocità superiori a 270 Kts.</string>
+    <string name="expl_mach" formatted="false">Si riferisce ad un rapporto tra la TAS e la velocità effettiva del suono in una determinata massa d\'aria. La velocità Mach viene utilizzata sugli aeroplani al di sopra di una certa altitudine perchè più attendibile dell IAS poichè l\'aria che entra nel tubo del Pitot è minore e quindi l\'anemometro non ci riporterà  correttamente la velocità del velivolo come a livello 0. Mano a mano che si sale a parità di IAS la velocità in MACH aumenta, quindi se non si controlla la velocità MACH si rischia di giungere ai limiti strutturali del velivolo pur essendo rimasti sotto alla VNE, poichè abbiamo superato il limite espresso in MACH. La IAS invece va sempre controllata anche ad alte altitudini a causa dello stallo.</string>
+
+    <!-- Orari -->
+
+    <string name="ft">FT</string>
+    <string name="gmt">GMT</string>
+    <string name="lmt">LMT</string>
+    <string name="zt">ZT</string>
+
+    <string name="ext_ft">Flight Time</string>
+    <string name="ext_gmt">Global Mean Time</string>
+    <string name="ext_lmt">Local Mean Time</string>
+    <string name="ext_zt">Zone Time</string>
+
+    <string name="expl_ft" formatted="false">FT</string>
+    <string name="expl_gmt" formatted="false">GMT</string>
+    <string name="expl_lmt" formatted="false">LMT</string>
+    <string name="expl_zt" formatted="false">ZT</string>
+
+    <!-- Triangolo del vento -->
+
+    <string name="alpha">α</string>
+    <string name="wv">WV</string>
+    <string name="wd">WD</string>
+    <string name="lc">LC</string>
+    <string name="xc">XC</string>
+    <string name="wca">WCA</string>
+    <string name="gsa">GSa</string>
+    <string name="gsr">GSr</string>
+    <string name="fta">FTa</string>
+    <string name="ftr">FTr</string>
+
+    <string name="ext_alpha">Alpha</string>
+    <string name="ext_wv">Wind Velocity</string>
+    <string name="ext_wd">Wind Direction</string>
+    <string name="ext_lc">Lateral Component</string>
+    <string name="ext_xc">Cross Component</string>
+    <string name="ext_wca">Wind Correction Angle</string>
+    <string name="ext_gsa">Ground Speed di andata</string>
+    <string name="ext_gsr">Ground Speed di ritorno</string>
+    <string name="ext_fta">Flight Time di andata</string>
+    <string name="ext_ftr">Flight Time di ritorno</string>
+
+    <string name="expl_alpha" formatted="false">α</string>
+    <string name="expl_wv" formatted="false">WV</string>
+    <string name="expl_wd" formatted="false">WD</string>
+    <string name="expl_lc" formatted="false">LC</string>
+    <string name="expl_xc" formatted="false">XC</string>
+    <string name="expl_wca" formatted="false">WCA</string>
+    <string name="expl_gsa" formatted="false">GSa</string>
+    <string name="expl_gsr" formatted="false">GSr</string>
+    <string name="expl_fta" formatted="false">FTa</string>
+    <string name="expl_ftr" formatted="false">FTr</string>
+
+
+</resources>
